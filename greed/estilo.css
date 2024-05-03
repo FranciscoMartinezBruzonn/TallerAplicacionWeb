@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(212, 175, 55);
+    font-family: "Lugrasimo", cursive;
+}
+/* .caja{
+    border: 3px solid #000000;
+    background-color: rgba(87, 82, 82, 0.726);
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;  /*Esto asegura que el ancho incluya el borde
+}
+.Greed-layout{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr); /* Hace que cada columna ocupe el mismo espacio
+    row-gap: 0px;
+    padding: 0px;
+    border: 10px solid rgb(00, 00, 00);
+    justify-content: stretch;
+    grid-template-rows: auto auto
+}
+.c1{
+    grid-column: 1 / span 4;
+    background-color: aqua;
+}
+.c2{
+    grid-column: 1 / span 4;
+    background-color: blueviolet;
+}
+.c3{
+    grid-row: 3 / 3;
+    grid-column: 1 / span 3;
+}
+.c5{
+    grid-column: 1/ span 4;
+} */
+.grid-layout{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 80% auto;
+    background-color: lightblue;
+    border: 2px solid black;
+    grid-template-rows: 15% 10% 60% 10%;
+
+}
